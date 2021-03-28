@@ -14,7 +14,7 @@ namespace ConsoleUI
 
             foreach (var product in productManager.GetByUnitPrice(50,100))
             {
-                Console.WriteLine(product.ProductName);
+                Console.WriteLine(product.ProductName); 
             }
             
         }
